@@ -185,7 +185,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #a8d4b2;
   font-family: "Roboto", sans-serif;
 }
 
@@ -203,6 +203,7 @@ body {
   html,
   body {
     overflow-x: hidden;
+    background-color: #a8d4b2;
   }
   .mobile-top-fix {
     margin-top: 30px;
@@ -220,7 +221,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #f55858;
+  background-color: #045315;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -913,14 +914,14 @@ services
 #services {
   position: relative;
   padding: 120px 0px 90px 0px;
-  background: rgba(0, 136, 232, 1);
+  background: rgb(0, 232, 19);
   background: -moz-linear-gradient(
     -45deg,
     rgba(0, 136, 232, 1) 0%,
     rgba(0, 182, 198, 1) 0%,
     rgba(0, 136, 232, 1) 100%
   );
-  background: -webkit-gradient(
+  background: -webkit-linear-gradient(
     left top,
     right bottom,
     color-stop(0%, rgba(0, 136, 232, 1)),
@@ -976,7 +977,7 @@ services
 
 .service-item:hover .icon,
 .service-item:hover a.main-button {
-  background-color: #0088e8;
+  background-color: #27e800;
 }
 
 .service-item .icon {
@@ -991,7 +992,7 @@ services
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #00b4c6;
+  background: #00c61a;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
